@@ -10,13 +10,13 @@
   </div>
   <ul class='menu'>
     <li class='menuitem'><a href='./index.html'>Home</a></li>
-    <li class='menuitem'><a href='./memes.html'>Memes</a></li>
     <li class='menuitem'><a href='./eigfns.html'>Eigenfunctions</a></li>
     <li class='menuitem'><a id='active' href='./eigvals.html'>Eigenvalues</a></li>
     <li class='menuitem'><a href='./weyl.html'>Weyl Plots and Counting Functions</a></li>
     <li class='menuitem'><a href='./zeros.html'>Zeros and Extrema</a></li>
     <li class='menuitem'><a href='./limit.html'>Limiting Laplacian</a></li>
     <li class='menuitem'><a href='./heatwave.html'>Heat and Wave Equations</a></li>
+    <li class='menuitem'><a href='./aselfsim.html'>Aself-Similar Weyl Plots</a></li>
     <li class='menuitem'><a href='https://github.com/seraphinalee/fractals'>Code</a></li>
     <li class='menuitem'><a href='./memes.html'>Memes</a></li>
   </ul>
@@ -27,6 +27,10 @@
   </div>
 
 The eigenvalues for both the interval and SG are in csv files.
+
+<br><br>
+
+  For the threshold division scheme, the cutoff values are determined in the following way. Cutoff 1 is always 0, i.e. the standard division scheme. For the remaining 4, we take the two measure parameters, and choose 4 evenly spaced points between the values, excluding the smaller measure parameter and including the larger measure parameter. They are numbered in increasing order. 
 
   <div class='subheading'>
   Eigenvalues
@@ -310,237 +314,6 @@ The eigenvalues for both the interval and SG are in csv files.
         0.1
       </td>
       <td>
-        <a href='./eigvals/sgeigvals/r0.1cut1.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r0.1cut2.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r0.1cut3.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r0.1cut4.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r0.1cut5.csv'>csv</a>
-      </td>
-      </tr>
-
-      <tr>
-      <td>
-        0.2
-      </td>
-      <td>
-        <a href='./eigvals/sgeigvals/r0.2cut1.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r0.2cut2.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r0.2cut3.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r0.2cut4.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r0.2cut5.csv'>csv</a>
-      </td>
-      </tr>
-
-      <tr>
-      <td>
-        0.3
-      </td>
-      <td>
-        <a href='./eigvals/sgeigvals/r0.3cut1.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r0.3cut2.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r0.3cut3.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r0.3cut4.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r0.3cut5.csv'>csv</a>
-      </td>
-      </tr>
-
-      <tr>
-      <td>
-        0.4
-      </td>
-      <td>
-        <a href='./eigvals/sgeigvals/r0.4cut1.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r0.4cut2.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r0.4cut3.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r0.4cut4.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r0.4cut5.csv'>csv</a>
-      </td>
-      </tr>
-
-      <tr>
-      <td>
-        0.5
-      </td>
-      <td>
-        <a href='./eigvals/sgeigvals/r0.5cut1.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r0.5cut2.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r0.5cut3.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r0.5cut4.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r0.5cut5.csv'>csv</a>
-      </td>
-      </tr>
-
-      <tr>
-      <td>
-        0.6
-      </td>
-      <td>
-        <a href='./eigvals/sgeigvals/r0.6cut1.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r0.6cut2.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r0.6cut3.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r0.6cut4.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r0.6cut5.csv'>csv</a>
-      </td>
-      </tr>
-
-      <tr>
-      <td>
-        max (0.64168)
-      </td>
-      <td>
-        <a href='./eigvals/sgeigvals/r0.64168cut1.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r0.64168cut2.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r0.64168cut3.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r0.64168cut4.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r0.64168cut5.csv'>csv</a>
-      </td>
-      </tr>
-
-      <tr>
-      <td>
-        0.68626
-      </td>
-      <td>
-        <a href='./eigvals/sgeigvals/r0.68626cut1.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r0.68626cut2.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r0.68626cut3.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r0.68626cut4.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r0.68626cut5.csv'>csv</a>
-      </td>
-      </tr>
-
-      <tr>
-      <td>
-        0.82361
-      </td>
-      <td>
-        <a href='./eigvals/sgeigvals/r0.82361cut1.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r0.82361cut2.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r0.82361cut3.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r0.82361cut4.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r0.82361cut5.csv'>csv</a>
-      </td>
-      </tr>
-
-      <tr>
-      <td>
-        1.0299
-      </td>
-      <td>
-        <a href='./eigvals/sgeigvals/r1.0299cut1.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r1.0299cut2.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r1.0299cut3.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r1.0299cut4.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r1.0299cut5.csv'>csv</a>
-      </td>
-      </tr>
-
-      <tr>
-      <td>
-        1.3741
-      </td>
-      <td>
-        <a href='./eigvals/sgeigvals/r1.3741cut1.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r1.3741cut2.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r1.3741cut3.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r1.3741cut4.csv'>csv</a>
-      </td>
-      <td>
-	<a href='./eigvals/sgeigvals/r1.3741cut5.csv'>csv</a>
-      </td>
-      </tr>
-
-      <tr>
-      <td>
-        1
-      </td>
-      <td>
         <a href='./eigvals/sgeigvals/r1cut1.csv'>csv</a>
       </td>
       <td>
@@ -559,43 +332,295 @@ The eigenvalues for both the interval and SG are in csv files.
 
       <tr>
       <td>
-        2.0641
+        0.2
       </td>
       <td>
-        <a href='./eigvals/sgeigvals/r2.0641cut1.csv'>csv</a>
+        <a href='./eigvals/sgeigvals/r2cut1.csv'>csv</a>
       </td>
       <td>
-	<a href='./eigvals/sgeigvals/r2.0641cut2.csv'>csv</a>
+	<a href='./eigvals/sgeigvals/r2cut2.csv'>csv</a>
       </td>
       <td>
-	<a href='./eigvals/sgeigvals/r2.0641cut3.csv'>csv</a>
+	<a href='./eigvals/sgeigvals/r2cut3.csv'>csv</a>
       </td>
       <td>
-	<a href='./eigvals/sgeigvals/r2.0641cut4.csv'>csv</a>
+	<a href='./eigvals/sgeigvals/r2cut4.csv'>csv</a>
       </td>
       <td>
-	<a href='./eigvals/sgeigvals/r2.0641cut5.csv'>csv</a>
+	<a href='./eigvals/sgeigvals/r2cut5.csv'>csv</a>
       </td>
       </tr>
 
       <tr>
       <td>
-        4.1399
+        0.3
       </td>
       <td>
-        <a href='./eigvals/sgeigvals/r4.1399cut1.csv'>csv</a>
+        <a href='./eigvals/sgeigvals/r3cut1.csv'>csv</a>
       </td>
       <td>
-	<a href='./eigvals/sgeigvals/r4.1399cut2.csv'>csv</a>
+	<a href='./eigvals/sgeigvals/r3cut2.csv'>csv</a>
       </td>
       <td>
-	<a href='./eigvals/sgeigvals/r4.1399cut3.csv'>csv</a>
+	<a href='./eigvals/sgeigvals/r3cut3.csv'>csv</a>
       </td>
       <td>
-	<a href='./eigvals/sgeigvals/r4.1399cut4.csv'>csv</a>
+	<a href='./eigvals/sgeigvals/r3cut4.csv'>csv</a>
       </td>
       <td>
-	<a href='./eigvals/sgeigvals/r4.1399cut5.csv'>csv</a>
+	<a href='./eigvals/sgeigvals/r3cut5.csv'>csv</a>
+      </td>
+      </tr>
+
+      <tr>
+      <td>
+        0.4
+      </td>
+      <td>
+        <a href='./eigvals/sgeigvals/r4cut1.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r4cut2.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r4cut3.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r4cut4.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r4cut5.csv'>csv</a>
+      </td>
+      </tr>
+
+      <tr>
+      <td>
+        0.5
+      </td>
+      <td>
+        <a href='./eigvals/sgeigvals/r5cut1.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r5cut2.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r5cut3.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r5cut4.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r5cut5.csv'>csv</a>
+      </td>
+      </tr>
+
+      <tr>
+      <td>
+        0.6
+      </td>
+      <td>
+        <a href='./eigvals/sgeigvals/r6cut1.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r6cut2.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r6cut3.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r6cut4.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r6cut5.csv'>csv</a>
+      </td>
+      </tr>
+
+      <tr>
+      <td>
+        max (0.64168)
+      </td>
+      <td>
+        <a href='./eigvals/sgeigvals/r8cut1.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r8cut2.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r8cut3.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r8cut4.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r8cut5.csv'>csv</a>
+      </td>
+      </tr>
+
+      <tr>
+      <td>
+        twin(1)
+      </td>
+      <td>
+        <a href='./eigvals/sgeigvals/r15cut1.csv'>csv</a>
+      </td>
+      <td>
+  <a href='./eigvals/sgeigvals/r15cut2.csv'>csv</a>
+      </td>
+      <td>
+  <a href='./eigvals/sgeigvals/r15cut3.csv'>csv</a>
+      </td>
+      <td>
+  <a href='./eigvals/sgeigvals/r15cut4.csv'>csv</a>
+      </td>
+      <td>
+  <a href='./eigvals/sgeigvals/r15cut5.csv'>csv</a>
+      </td>
+      </tr>
+
+      <tr>
+      <td>
+        twin(0.6)
+      </td>
+      <td>
+        <a href='./eigvals/sgeigvals/r14cut1.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r14cut2.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r14cut3.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r14cut4.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r14cut5.csv'>csv</a>
+      </td>
+      </tr>
+
+      <tr>
+      <td>
+        twin(0.5)
+      </td>
+      <td>
+        <a href='./eigvals/sgeigvals/r13cut1.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r13cut2.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r13cut3.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r13cut4.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r13cut5.csv'>csv</a>
+      </td>
+      </tr>
+
+      <tr>
+      <td>
+        twin(0.4)
+      </td>
+      <td>
+        <a href='./eigvals/sgeigvals/r12cut1.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r12cut2.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r12cut3.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r12cut4.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r12cut5.csv'>csv</a>
+      </td>
+      </tr>
+
+      <tr>
+      <td>
+        twin(0.3)
+      </td>
+      <td>
+        <a href='./eigvals/sgeigvals/r11cut1.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r11cut2.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r11cut3.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r11cut4.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r11cut5.csv'>csv</a>
+      </td>
+      </tr>
+
+      <tr>
+      <td>
+        1
+      </td>
+      <td>
+        <a href='./eigvals/sgeigvals/r7cut1.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r7cut2.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r7cut3.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r7cut4.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r7cut5.csv'>csv</a>
+      </td>
+      </tr>
+
+      <tr>
+      <td>
+        twin(0.2)
+      </td>
+      <td>
+        <a href='./eigvals/sgeigvals/r10cut1.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r10cut2.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r10cut3.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r10cut4.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r10cut5.csv'>csv</a>
+      </td>
+      </tr>
+
+      <tr>
+      <td>
+        twin(0.1)
+      </td>
+      <td>
+        <a href='./eigvals/sgeigvals/r9cut1.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r9cut2.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r9cut3.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r9cut4.csv'>csv</a>
+      </td>
+      <td>
+	<a href='./eigvals/sgeigvals/r9cut5.csv'>csv</a>
       </td>
       </tr>
     </table>
